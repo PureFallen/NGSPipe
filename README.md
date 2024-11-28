@@ -2,6 +2,7 @@
 Low effort Python script to post PSO2NGS log messages to a Discord webhook.
 
 Depends on [NGSLogPrep](https://github.com/PureFallen/NGSLogPrep).
+Posting SymbolArts to Discord expects an executable `SarConvert.exe` to be provided that does take care of the conversion. Wherever you get this one from is up to you.
 
 The code has literally been thrown together and patched several times over the last few years and as such is definitely a mess. It was never intended to be state of the art or performant, or I probably would have used something other than Python code for it. It just _works_, and that was good enough for me during that time.
 
