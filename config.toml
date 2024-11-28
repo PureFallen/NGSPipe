@@ -1,0 +1,59 @@
+version = "20240614"
+
+# Type of Chat to redirect. Valid Values are PUBLIC, PARTY, GUILD, REPLY (Whisper) or GROUP.
+# Should always be 'GUILD'
+chat_type = 'GUILD'
+
+# Webhook URL to send the messages to.
+# Script is designed to use V10 Discord API (https://discord.com/api/v10/webhooks/...)
+webhook_url = ''
+
+[commands]
+
+# Alliance Tasks Notifications
+[commands.at]
+ping = '&1231555090708693062'
+override_message = ''
+override_webhook = ''
+[commands.ats]
+ping = '&1231555090708693062'
+override_message = ''
+override_webhook = ''
+
+# Ping when an concert is about to end
+[commands.concert]
+ping = '&1231555222698987572'
+override_message = ''
+override_webhook = ''
+
+# Invites
+[commands.invite]
+ping = '&1230956087541235815'
+override_message= ''
+override_webhook = ''
+[commands.inv]
+ping = '&1230956087541235815'
+override_message= ''
+override_webhook = ''
+
+# Looking for Group
+[commands.lfg]
+ping = '&1231555351489413143'
+override_message = ''
+override_webhook = ''
+
+# Notify for Urgent Quests that appeared or Party Gathering
+[commands.uq]
+ping = '&1231555171499245699'
+override_message = ''
+override_webhook = ''
+[commands.uqs]
+ping = '&1231555171499245699'
+override_message = ''
+override_webhook = ''
+
+# Information about Versions and Script Host
+[commands.version]
+ping = ''
+override_message = 'f"`{configs.chat_name}@{log_line.player_name}: EXE VER: {VERSION} | CONFIG VER: {configs.config_version} | HOST: {configs.script_host}`"'
+override_webhook = ''

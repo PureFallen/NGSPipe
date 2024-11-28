@@ -1,0 +1,5 @@
+# Identifier for Alliance Chat redirected to Discord
+chat_name = 'Dice1'
+
+# Used to identifier whoever runs the script right now when the script host is offline and unable to respond.
+script_host = 'PureFallen'
