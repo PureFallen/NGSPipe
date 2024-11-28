@@ -5,6 +5,8 @@ Depends on [NGSLogPrep](https://github.com/PureFallen/NGSLogPrep).
 
 The code has literally been thrown together and patched several times over the last few years and as such is definitely a mess. It was never intended to be state of the art or performant, or I probably would have used something other than Python code for it. It just _works_, and that was good enough for me during that time.
 
+Core functionality happens in `NGSPipe.py`. The file `Killswitch.py` provides a very naive solution quickly deleting all Discord webhooks used in case of emergency to user that lacks experience with the use of REST APIs.
+
 ## Known Problems
 
 A lot.
